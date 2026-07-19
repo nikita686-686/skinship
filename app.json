@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Skinship",
+    "slug": "skinship",
+    "scheme": "skinship",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#FF6A3D",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.skinship.app" },
+    "android": { "package": "com.skinship.app" },
+    "web": { "bundler": "metro", "output": "single" },
+    "plugins": ["expo-router"]
+  }
+}
